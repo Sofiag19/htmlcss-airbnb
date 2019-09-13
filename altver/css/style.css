@@ -15,8 +15,18 @@
     text-align: center;
     min-width: 350px;
     min-height: 150px;
+    cursor: pointer;
   }
 
+  .box:hover .oscuramento{
+    display: none;
+  }
+
+  .box:hover {
+    transform: scale(1.03);
+  }
+
+/* immagini */
   .box.newyork {
     background-image: url("https://wallpapercave.com/wp/wp3594884.jpg");
   }
@@ -44,4 +54,5 @@
     color: white;
     font-size: 30px;
     font-family: serif;
+    text-shadow: 2px 2px 4px orange;
   }
