@@ -18,6 +18,12 @@
     cursor: pointer;
   }
 
+  .oscuramento {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
   .box:hover .oscuramento{
     display: none;
   }
@@ -37,12 +43,6 @@
 
   .box.neworleans {
     background-image: url("https://wallpapercave.com/wp/wp2065893.jpg");
-  }
-
-  .oscuramento {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
   }
 
 /* nomi */
