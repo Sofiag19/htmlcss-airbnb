@@ -1,16 +1,20 @@
+/* generali */
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
+/* boxes */
   .box {
     position: relative;
-    width: 500px;
-    height: 400px;
+    width: 30%;
+    height: 60vh;
     margin: 10px;
     background-size: cover;
     text-align: center;
+    min-width: 350px;
+    min-height: 150px;
   }
 
   .box.newyork {
@@ -25,6 +29,7 @@
     background-image: url("https://wallpapercave.com/wp/wp2065893.jpg");
   }
 
+/* nomi */
   .nome {
     position: absolute;
     top: 50%;
