@@ -6,6 +6,11 @@
   }
 
 /* boxes */
+
+  .contenitore {
+    height: 100vh;
+  }
+
   .box {
     position: relative;
     width: 30%;

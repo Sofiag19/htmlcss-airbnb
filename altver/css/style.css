@@ -6,6 +6,10 @@
   }
 
 /* boxes */
+  .contenitore {
+    height: 100vh;
+  }
+
   .box {
     position: relative;
     width: 30%;
@@ -30,6 +34,10 @@
 
   .box:hover {
     transform: scale(1.03);
+  }
+
+  .box:active {
+    transform: scale(0.9);
   }
 
 /* immagini */
